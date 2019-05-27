@@ -30,7 +30,6 @@
         </div>
     </div>
 </div>
-/*<script src="js/swregis.js"></script>*/
 <script>
 	
 	function registerServiceWorker() {
@@ -69,7 +68,7 @@
     })
 
     function execute() {
-        console.log(1)
+      
         registerServiceWorker().then(registration => {
             registration.showNotification('Hello World!');
         });
